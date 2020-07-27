@@ -10,23 +10,14 @@ import org.springframework.stereotype.Component;
 public class ReadApplicationConstants
 {
 
-	private static String loginOtpMessage;
-	private static String smsSenderId;
+	private static String trainingPrefix;
 
+	public static String getTrainingPrefix() {
+		return trainingPrefix;
+	}
+
+	public static void setTrainingPrefix(String trainingPrefix) {
+		ReadApplicationConstants.trainingPrefix = trainingPrefix;
+	}
 	
-	public static String getSmsSenderId() {
-		return smsSenderId;
-	}
-
-	public static void setSmsSenderId(String smsSenderId) {
-		ReadApplicationConstants.smsSenderId = smsSenderId;
-	}
-
-	public static String getLoginOtpMessage() {
-		return loginOtpMessage;
-	}
-
-	public static void setLoginOtpMessage(String loginOtpMessage) {
-		ReadApplicationConstants.loginOtpMessage = loginOtpMessage;
-	}
 }

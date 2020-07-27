@@ -1,0 +1,3 @@
+training:
+
+ viewTraining: select id, training_name from training;
