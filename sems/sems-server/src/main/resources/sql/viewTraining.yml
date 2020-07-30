@@ -1,3 +1,3 @@
 training:
 
- viewTraining: select id, training_name from training;
+ viewTrainingSql: select id, training_name from training;
